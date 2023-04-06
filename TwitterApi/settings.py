@@ -15,7 +15,7 @@ SECRET_KEY = 'b84acf8595c0594538e999958f35f966'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://twitter-api-rcr2.onrender.com',
+ALLOWED_HOSTS = ['twitter-api-rcr2.onrender.com',
                  '127.0.0.1:8000', '127.0.0.1']
 
 
