@@ -40,7 +40,6 @@ class Retweet(APIView):
             tweet_serializer = TweetSerializer(tweet)
             response_data = {
                 'message': 'Retweet created successfully',
-                # 'retweet': serializer.data,
                 'tweet': tweet_serializer.data
             }
             return Response(response_data, status=status.HTTP_201_CREATED)

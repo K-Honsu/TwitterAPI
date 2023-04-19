@@ -8,7 +8,6 @@ class TweetSerializer(serializers.ModelSerializer):
         fields = ['id', 'message', 'upload1',
                   'upload2', 'upload3', 'upload4']
 
-        # upload1 = serializers.ImageField(use_url=True)
 
 
 class RetweetSerializer(serializers.ModelSerializer):
